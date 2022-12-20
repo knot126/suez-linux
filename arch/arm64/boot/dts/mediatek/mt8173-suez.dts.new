@@ -1,0 +1,22 @@
+/**
+ * Copyright (C) 2022 Knot126
+ * 
+ * Testing device tree for moving amazon suez to chromeos 5.4 based kernel
+ * 
+ * Hope to mainline soon
+ */
+
+/dts-v1/;
+#include "mt8173.dtsi"
+
+/ {
+	model = "Amazon Fire HD 10 (2017)";
+	compatible = "mediatek,suez", "mediatek,mt8173";
+	
+	memory@40000000 {
+		device_type = "memory";
+		reg = <0 0x40000000 0 0x80000000>;
+	};
+	
+	
+}
