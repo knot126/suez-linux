@@ -497,5 +497,4 @@ source "drivers/misc/ocxl/Kconfig"
 source "drivers/misc/cardreader/Kconfig"
 source "drivers/misc/habanalabs/Kconfig"
 source "drivers/misc/intel/gna/Kconfig"
-source "drivers/misc/mediatek/Kconfig"
 endmenu
