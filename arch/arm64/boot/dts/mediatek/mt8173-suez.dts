@@ -280,7 +280,7 @@
 	mediatek,use-push-pull;
 	status = "okay";
 
-	mt6311: mt6311@6B {
+	mt6311: mt6311@6b {
 		compatible = "mediatek,mt6311";
 		reg = <0x6B>;
 		regulators {
@@ -321,7 +321,7 @@
 		reg = <0x3C>;
 	};
 
-	bq24297_charger@6B {
+	bq24297_charger@6b {
 		compatible = "ti,bq24297";
 		reg = <0x6B>;
 		pinctrl-names = "default";
@@ -362,7 +362,7 @@
 		reg = <0x2c>;
 	};*/
 
-	lp8557_bl@2C {
+	lp8557_bl@2c {
 		compatible = "ti,lp8557_led";
 		reg = <0x2C>;
 		is_load-switch_supported = <0>;
